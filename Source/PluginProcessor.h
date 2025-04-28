@@ -21,7 +21,7 @@ public:
     ~NewProjectAudioProcessor() override;
 
     //==============================================================================
-    void prepareToPlay (double sampleRate, int samplesPerBlock) override;
+    void prepareToPlay (double sampleRate, int samplesPerBlock) override; // Very important func
     void releaseResources() override;
 
    #ifndef JucePlugin_PreferredChannelConfigurations
